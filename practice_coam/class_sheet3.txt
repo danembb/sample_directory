@@ -1,0 +1,13 @@
+Class: Cat
+
+Attributes:
+1. is_hungry (boolean)
+2. name (string)
+3. toy_list (array)
+4. teeth (integer)
+
+Methods:
+1. feed_cat (update is_hungry attribute)
+2. create_nickname (updates name attribute)
+3. shop_for_toys (appends a toy item to the toy_list array)
+4. dental_surgery (subtracts 2 from teeth)
