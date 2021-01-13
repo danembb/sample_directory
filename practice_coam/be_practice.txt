@@ -1,0 +1,23 @@
+What is a class: A class is a category of a thing
+
+What is an instance: An instance is a specific version of a class
+
+What is an attribute: An attribute is a property of a class that is shared among all instances of that class.
+
+What is a method: A method defines the behaviors, actions or calculations of a class.
+
+What is an integer: An integer is a whole number that can be positive, negative or zero.
+
+What is a float: a float is a number that contains a decimal point.
+
+What is an array: a data structure that represents a group of things.
+
+What is a boolean: a value that is either true or false.
+
+What is HTTP: Hypertext Transfer Protocol, or, how data is sent back and forth through the internet.
+
+What is Github: Is an online git repository hosting service.
+
+What is Git: A version control system (VCS).
+
+What is refactoring: Returning to previously entered code to review and fix up.
