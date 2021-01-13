@@ -11,3 +11,17 @@ Methods:
 2. lose_meeple (subtracts 1 from meeple_number)
 3. play_with_uncle (changes the is_fun attribute)
 4. obtain_expansion (append a mechanic item into the mechanics array)
+
+Instance: RootGame
+
+Attributes:
+1. title: "Root"
+2. meeple_number: 30
+3. is_fun: true
+4. mechanics: ["worker placement", "resource management"]
+
+Methods:
+1. release_deluxe_edition: title = "Root: The Deluxe Edition"
+2. lose_meeple: meeple_number = 29
+3. play_with_uncle: is_fun = false
+4. obtain_expansion mechanics:["worker placement", "resource management", "hand builder"]
