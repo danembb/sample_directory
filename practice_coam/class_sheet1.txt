@@ -1,13 +1,27 @@
 Class: MobilePhone
 
 Attributes:
-1. is_on_call = (boolean)
-2. user_name = (string)
-3. software_version = (float)
-4. app_list = (array)
+1. is_on_call (boolean)
+2. user_name (string)
+3. software_version (float)
+4. app_list (array)
 
 Methods:
-1. receive_call = (update is_on_call to "true")
-2. sell_phone = (updates user_name)
-3. update_system = (updates software_version)
-4. add_app = (adds an element to app_list)
+1. receive_call (update is_on_call to "true")
+2. sell_phone (changes user_name)
+3. update_system (adds .1 to software_version)
+4. add_app (adds an element to app_list)
+
+Instance: DanesPhone
+
+Attributes:
+1. is_on_call: false
+2. user_name: "Dane"
+3. software_version: 14.2
+4. app_list: ["Maps", "Chrome", "Spotify", "PocketCasts"]
+
+Methods:
+1. receive_call: is_on_call = true
+2. sell_phone: user_name = "Elspeth"
+3. update_system: software_version = 14.3
+4. add_app: app_list = ["Maps", "Chrome", "Spotify", "PocketCasts", "Wikipedia"]
