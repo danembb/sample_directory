@@ -1,0 +1,13 @@
+Class: MobilePhone
+
+Attributes:
+1. is_on_call = (boolean)
+2. user_name = (string)
+3. software_version = (float)
+4. app_list = (array)
+
+Methods:
+1. receive_call = (update is_on_call to "true")
+2. sell_phone = (updates user_name)
+3. update_system = (updates software_version)
+4. add_app = (adds an element to app_list)
