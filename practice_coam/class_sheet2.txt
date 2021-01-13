@@ -1,0 +1,13 @@
+Class: Boardgame
+
+Attributes:
+1. title (string)
+2. meeple_number (integer)
+3. is_fun (boolean)
+4. mechanics (array)
+
+Methods:
+1. release_deluxe_edition (updates title attribute)
+2. lose_meeple (subtracts 1 from meeple_number)
+3. play_with_uncle (changes the is_fun attribute)
+4. obtain_expansion (append a mechanic item into the mechanics array)
