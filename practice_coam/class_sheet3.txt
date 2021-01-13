@@ -4,10 +4,24 @@ Attributes:
 1. is_hungry (boolean)
 2. name (string)
 3. toy_list (array)
-4. teeth (integer)
+4. current_teeth (integer)
 
 Methods:
 1. feed_cat (update is_hungry attribute)
 2. create_nickname (updates name attribute)
 3. shop_for_toys (appends a toy item to the toy_list array)
-4. dental_surgery (subtracts 2 from teeth)
+4. dental_surgery (subtracts 2 from current_teeth)
+
+Instance: MyCat
+
+Attributes:
+1. is_hungry: true
+2. name: "Bb"
+3. toy_list: ["squeaky mouse", "RC car", "scratching post"]
+4. current_teeth: 30
+
+Methods:
+1. feed_cat: is_hungry = false
+2. create_nickname: name = "Slonker"
+3. shop_for_toys: toy_list = ["squeaky mouse", "RC car", "scratching post", "Jingly ball"]
+4. dental_surgery: current_teeth = 28
